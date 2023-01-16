@@ -133,12 +133,12 @@ body {
     * Logo
     */
     #logo-header {
-    float: left;
-    padding: 15px 0 0 150px;
+    float: center;
+    padding: 50px 0 0 600px;
     text-decoration: none;
     }
     #logo-header:hover {
-    color: #000000;
+    color: #f5f4f4;
     }
     
     #logo-header .site-name {
@@ -151,7 +151,7 @@ body {
     #logo-header .site-desc {
     display: block;
     font-weight: 300;
-    font-size: 0.8em;
+    font-size: 1em;
     color: rgb(3, 0, 0);
     }
     
@@ -160,23 +160,23 @@ body {
     * Navegación
     */
     nav {
-    float: right;
+    float: center;
     }
     nav ul {
     margin: 0;
-    padding: 0;
+    padding: 90;
     list-style: none;
     padding-right: 20px;
     }
     
     nav ul li {
         display: inline-block;
-        line-height: 110px;
+        line-height: 53px;
     }
         
         nav ul li a { 
             display: block;
-            padding: 0 10px;
+            padding: 0 50px;
             text-decoration: none;
         }
         
@@ -205,3 +205,4 @@ body {
     height: 20px;
     text-align: center;
     }
+    
