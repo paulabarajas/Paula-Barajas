@@ -185,9 +185,9 @@ body {
             } 
             #main-content {
     background: white;
-    width: 90%;
-    max-width: 1000px;
-    margin: 20px auto;
+    width: 100%;
+    max-width: 1330px;
+    margin: 30px auto;
     box-shadow: 0 0 10px rgba(0,0,0,.1);
     }  	 
     p {
