@@ -1,104 +1,56 @@
-.flexsearch--wrapper {
-	height: auto;
-	width: auto;
-	max-width: 100%;
-	overflow: hidden;
-	background: transparent;
-	margin: 0;
-	position: static;
-}
-	
-.flexsearch--form {
-	overflow: hidden;
-	position: relative;
-}
-.flexsearch--input-wrapper {
-	padding: 0 66px 0 0; /* Right padding for submit button width */
-	overflow: hidden;
-}
-.flexsearch--input {
-    width: 20%;
-  }
-  
-/***********************
- * Configurable Styles *
- ***********************/
-.flexsearch {
-    padding: 0 0px 0 1000px; /* Padding for other horizontal elements */
-  }
-  .flexsearch--input {
-    -webkit-box-sizing: content-box;
-      -moz-box-sizing: content-box;
-      box-sizing: content-box;
-       height: 20px;
-    padding: 0 15px 0 200px;
-      border-color: #888;
-    border-radius: 95px; /* (height/2) + border-width */
-    border-style: solid;
-      border-width: 5px;
-    margin-top: 15px;
-    color: #333;
-    font-family: 'Helvetica', sans-serif;
-      font-size: 12px;
-      -webkit-appearance: none;
-      -moz-appearance: none;
-  }
-  .flexsearch--submit {
-  position: absolute;
-	right: 0;
-	top: 0;
-	display: block;
-	width: 55px;
-	height: 55px;
-  padding: 0;
-  border: none;
-	margin-top: 0px; /* margin-top + border-width */
-  margin-right: 60px; /* border-width */
-	background: transparent;
-  color: #888;
-  font-family: 'Helvetica', sans-serif;
-  font-size: 25px;
-  line-height: 60px;
-}
-/***********************
- * Formato circular *
- ***********************/
-.flexsearch--input:focus {
-    outline: none;
-    border-color: rgb(0, 0, 0);
-  }
-  
-  .flexsearch--input:focus.flexsearch--submit {
-       color: #333; 
-  }
-  
-  .flexsearch--submit:hover {
-    color: rgb(0, 0, 0);
-    cursor: pointer;
-  }
-  
-::-webkit-input-placeholder {
-	color: #888;  
-}
-
-input:-moz-placeholder {
-  color: #888
-}
-
-
-/****************
- * Pretify demo *
- ****************/
-.h1 {
-  float: left;
-  margin: 25px;
-  color: #333;
-  font-family: 'Helvetica', sans-serif;
-  font-size: 45px;
-  font-weight: bold;
-  line-height: 45px;
-  text-align: center;
-}
+/** Logo*/
+    #logo-header {
+        float: center;
+        padding: 0px 0 0 600px;
+        text-decoration: none;
+        }
+        #logo-header:hover {
+        color: #f5f4f4;
+        }
+        
+        * {
+            padding: 0;
+            margin: 0;
+          }
+          p {
+            margin-bottom: 20px;
+          }
+          .wrapper {
+            width: 80%;
+            margin: auto;
+            overflow:hidden;
+          }
+          header {
+            background: rgba(0,0,0,0.9);
+            width: 100%;
+            position: fixed;
+            z-index: 10;
+          }
+          
+          nav {
+            float: left; /* Desplazamos el nav hacia la izquierda */
+          }
+          nav ul {
+            list-style: none;
+            overflow: hidden; /* Limpiamos errores de float */
+          }
+          nav ul li {
+            float: left;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+          }
+          nav ul li a {
+            display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+            padding: 20px;
+            color: #fff;
+            text-decoration: none;
+          }
+          nav ul li:hover {
+            background: #adb0dc;
+          }
+          .contenido {
+            padding-top: 80px;
+          }
 body {
     margin: 10;
     padding: 10;
@@ -135,62 +87,6 @@ body {
     #main-header a {
     color: rgb(6, 6, 6);
     }
-    
-    /*
-    * Logo
-    */
-    #logo-header {
-    float: center;
-    padding: 100px 0 0 600px;
-    text-decoration: none;
-    }
-    #logo-header:hover {
-    color: #f5f4f4;
-    }
-    
-    #logo-header .site-name {
-    
-    display: block;
-    font-weight: 1000;
-    font-size: 1.2em;
-    }
-    
-    #logo-header .site-desc {
-    display: block;
-    font-weight: 300;
-    font-size: 1em;
-    color: rgb(3, 0, 0);
-    }
-    
-    
-    /*
-    * Navegación
-    */
-    nav {
-    float: center;
-    }
-    nav ul {
-    margin: 0;
-    padding: 90;
-    list-style: none;
-    padding-right: 20px;
-    }
-    
-    nav ul li {
-        display: inline-block;
-        line-height: 55px;
-    }
-        
-        nav ul li a { 
-            display: block;
-            padding: 0 110px;
-            text-decoration: none;
-        }
-        
-            nav ul li a:hover {
-                background: #dad5e6;
-            } 
-            #main-content {
     background: white;
     width: 100%;
     max-width: 1330px;
