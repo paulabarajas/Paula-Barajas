@@ -108,7 +108,14 @@ body {
     font-size: 1em;
     line-height: 3em;
     }
-    
+    h2 {
+        font-size: 2em;
+        line-height: 2em;
+        margin: 10px 0;
+        text-align: center;
+        font-weight: 50;
+        }
+
     h1 {
     font-size: 5em;
     line-height: 1.3em;
@@ -134,7 +141,7 @@ body {
     */
     #logo-header {
     float: center;
-    padding: 50px 0 0 600px;
+    padding: 100px 0 0 600px;
     text-decoration: none;
     }
     #logo-header:hover {
@@ -171,12 +178,12 @@ body {
     
     nav ul li {
         display: inline-block;
-        line-height: 53px;
+        line-height: 55px;
     }
         
         nav ul li a { 
             display: block;
-            padding: 0 50px;
+            padding: 0 110px;
             text-decoration: none;
         }
         
