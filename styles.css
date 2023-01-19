@@ -4,7 +4,7 @@
         padding: 0 0 0 600px;
         text-decoration: none;
         }
-        
+
         * {
             padding: 0;
             margin: 0;
@@ -18,12 +18,11 @@
             overflow:hidden;
           }
           header {
-            background: rgba(0,0,0,0.9);
+            background: #dad5e6;
             width: 100%;
             position: fixed;
             z-index: 10;
-          }
-          
+          }          
           nav {
             float: center; /* Desplazamos el nav hacia el centro */
           }
